@@ -76,8 +76,8 @@ class LoginPage extends Component {
             </Button>
           </div>
         </Form>
-        {/* <center> */}
-        {/* <button
+        <center>
+        <button
             type="button"
             className="link-button"
             onClick={() => {
@@ -85,8 +85,8 @@ class LoginPage extends Component {
             }}
           >
             Register
-          </button> */}
-        {/* </center> */}
+          </button>
+        </center>
       </div>
     );
   }

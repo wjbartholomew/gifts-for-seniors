@@ -10,7 +10,8 @@ class InsetGoogleMap extends Component {
     let zipcode = this.props.barrel.zipcode;
     let city = this.props.barrel.city;
     let host = this.props.barrel.host;
-    let googlekey = process.env.REACT_APP_GOOGLE_MAPS_API_KEY;
+    // let googlekey = process.env.REACT_APP_GOOGLE_MAPS_API_KEY;
+    let googlekey = 'AIzaSyD8TNMTi3MN10c4GKvbbFXailCferoIxkk';
     console.log(googlekey);
     let imageSource = `https://maps.googleapis.com/maps/api/staticmap?center=${street},${city},${zipcode}&zoom=10&size=350x350&markers=size:large%7Ccolor:blue%7C${street}+${zipcode}&key=${googlekey}`;
     console.log(this.props.barrel);

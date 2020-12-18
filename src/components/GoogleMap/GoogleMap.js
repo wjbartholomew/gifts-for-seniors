@@ -6,7 +6,8 @@ import { authorize } from "passport";
 
 class GoogleMap extends Component {
   render() {
-    let googlekey = process.env.REACT_APP_GOOGLE_MAPS_NOT_STATIC_API_KEY;
+    // let googlekey = process.env.REACT_APP_GOOGLE_MAPS_NOT_STATIC_API_KEY;
+    let googlekey = 'AIzaSyD8TNMTi3MN10c4GKvbbFXailCferoIxkk';
     console.log(this.props.state.searchTerm);
     let mapToSearch = this.props.state.mapToSearch;
     let searchTerm = this.props.state.searchTerm;
